@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+#canvas{
+position:absolute;
+left:30%;
+border:1px solid black;	
+top:30px;
+}
+#menu_top{
+	background:url(images/menubar_top.png) repeat-x;
+	position:absolute;
+	height:30px;
+	width:100%;
+	top:0px;
+	left:0px;}
+	
+	#menu_top_controls{
+		position:absolute;
+		
+		left:40%;
+		top:5px;	
+		
+	}
+#sprite_control_box{
+	height:100px;
+	width: 300px;
+	position:absolute;
+	left:20px;
+	top:30px;
+	border:1px solid black;
+	
+}
+#spritesheet_box{
+	height:400px;
+	width: 300px;
+	position:absolute;
+	left:20px;
+	top:150px;
+	/*border:1px solid black;*/
+}
+#control_box{
+		height:400px;
+	width: 250px;
+	position:absolute;
+	right:0px;
+	top:100px;
+	/*border:1px solid black;*/
+	color:#FFF;
+	visibility:visible;
+}
+#panel_right{
+position:absolute;
+top:30px;
+right:50px;
+background:url(images/bg.png);
+height:96%;
+width:275px;	
+	visibility:visible;
+}
+#right_panel_top{
+width:100%;
+height:50px;
+background:url(images/righpanel_top.png) repeat-x;
+	
+	
+	
+}
+#right_menubar{
+background:url(images/right_menubar.png) repeat-y;
+height:96%;
+width:50px;
+position:absolute;
+top:30px;
+right:0px;
+	
+	
+}
+#inspectwin{
+	clear:both;
+	position:absolute;
+	border:1px solid black;
+	width:512px;
+	height:150px;
+	bottom:00px;
+	left:30%;
+}

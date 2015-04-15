@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Map Editor</title>
+<link type="text/css" rel="stylesheet" href="style.css">
+<script type="text/javascript" src="JQuery.js"></script>
+<script type="text/javascript" src="editor.js"></script>
+<script type="text/javascript" src="gui.js"></script>
+</head>
+<div id=menu_top>
+<div id=menu_top_controls>
+<img src=images/cursor.png id="tool_cursor" height="15px" width="15px"/>
+
+<img src=images/paintbush.png id="tool_paintbrush" height="15px" width="15px"/>
+
+<img src=images/blocked.png id="tool_blocked" height="15px" width="15px"/>
+
+</div>
+</div>
+
+<div id=sprite_control_box><br />
+Sprite Sheet:<select name=sprite_sheet><option value=Sheet1>Sprite Sheet 1</option> <option value=sheet2>Sprite Sheet 2</option></select><br /><br>
+ <input type="file" /> 
+</div>
+
+<div id=spritesheet_box>
+ <canvas id=spritesheet_canvas style='position:absolute; top:150px; left:20px; border:1px solid black; '></canvas> 
+
+</div>
+
+<canvas id=canvas ></canvas>
+
+<div id="right_menubar"><img src=images/gear.png height=40px width="40px"style="position:absolute; top:40%; left:5px" /></div>
+<div id=panel_right>
+<!-- <div id=right_panel_top></div> -->
+
+<div id=control_box>
+<input type="checkbox" checked="CHECKED" name='drawgrid'/>Draw Grid <br />
+<input type="checkbox" checked="CHECKED"/>Ground <br />
+<input type="checkbox" checked="CHECKED"/>Scenery <br />
+<input type="checkbox" checked="CHECKED"/>Objects <br />
+
+ <br /><br />
+<Br />
+<br /><br /><br />
+<input type="button" name="export" value="export" /> <br /><br /><br />
+<input type="file" name="fimport" id="fimport"/>
+<input type="button" name="import" value="import"/>
+</div>
+</div>
+<div id="inspectwin">
+
+
+
+</div>
+<body>
+</body>
+</html>
