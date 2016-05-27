@@ -1,4 +1,5 @@
-<?
+<?php
+//echo "hello <Br>";
 if(empty($_POST['filename']) || empty($_POST['content'])){
     exit;
 }
